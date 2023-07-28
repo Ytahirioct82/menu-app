@@ -7,7 +7,6 @@ app.use(cors());
 
 // import our menu database.
 const menuData = require("./menuData.json");
-console.log(menuData);
 
 app.get("/", (req, res) => res.send("Hello World!"));
 
