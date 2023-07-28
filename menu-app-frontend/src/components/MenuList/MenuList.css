@@ -1,0 +1,18 @@
+.MenuList {
+  display: grid;
+  place-items: center;
+}
+
+.MenuList .items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.MenuList .header {
+  text-align: center;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ff472c;
+  color: #ffffff;
+}
